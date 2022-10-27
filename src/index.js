@@ -11,6 +11,7 @@ import NotificationList from './chapter_06/NotificationList'
 import Accommodate from './chapter_07/Accommodate'
 import ConfirmButton from './chapter_08/ConfirmButton'
 import LandingPage from './chapter_09/LandingPage'
+import AttendanceBook from './chapter_10/AttendanceBook'
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // ReactDOM.render(
@@ -23,7 +24,7 @@ import LandingPage from './chapter_09/LandingPage'
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    <AttendanceBook />
   </React.StrictMode>,
   document.getElementById('root')
 );
